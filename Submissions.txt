@@ -1,7 +1,19 @@
 1. How many hours did you spend on this challenge?
+I spent around 6 hours on this challenge!
 
 2. Describe the features you have implemented.
+The main overarching feature of the web application was a form.
+The form had select options for each prompt in the json file!
+Then, after ensuring the user had an option selected for each prompt, I calculated the mode of the answer selected.
+After getting the mode, I closed the form, and created a div with the resulting answer on it!
 
 3. Describe the difficulties you faced (if any) while working on the challenge and how you tackled them.
+One difficulty I faced was not using enough components to further organize my work. I had a main form component, and the majority of the 
+calculations were on that one component. I addressed this challenge by organizing my states using the react hook useState to organize my data within that single component.
+
+Another difficulty I had was parsing the json data, especially since the options were organized by capital alphabetical letter.
+To address the problem, I used String.fromCharCode(i) where i = 65 and onwards to calculate the alphabetical character.
+That way, I could access the option for each prompt without having to manually compute the capital alphabetical character.
 
 4. How much time can you spend each week working for DP Developers?
+I can spend 8 hours per week for DP Developers!
